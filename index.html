@@ -1,0 +1,60 @@
+<!-- p38 -->
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <title>{title}</title>
+    <meta charset="utf-8">
+    <style>
+        body {{margin: 10px;}}
+        h1 {{color: lightgray;font-size: 36pt;}}
+        p {{font-size: 16pt;}}
+    </style>
+</head>
+
+<body>
+    <h1>{title}</h1>
+    <p>{message}</p>
+    <div>
+        <form method="post" action="/">
+            <!-- 選択リスト -->
+            <select name="sel1" multiple>
+                <option>Windows</option>
+                <option>macOS</option>
+                <option>Linux</option>
+                <option>android</option>
+                <option>iOS</option>
+                <option>iPadOS</option>
+                <option>ChromeOS</option>
+            </select>
+
+            <!-- ラジオボタン -->
+            <!-- <div>
+                <input type="radio" id="r1" name="radio1" value="male">
+                <label for="r1">male</label>
+            </div>
+            <div>
+                <input type="radio" id="r2" name="radio1" value="female">
+                <label for="r2">female</label>
+            </div> -->
+
+
+
+            <!-- チェックボックス -->
+            <!-- <div>
+                <input type="checkbox" id="ck1" name="check1">
+                <label for="ck1">Checkbox 1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="ck2" name="check2">
+                <label for="ck2">Checkbox 2</label>
+            </div> -->
+
+
+
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
